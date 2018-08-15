@@ -1,5 +1,5 @@
 # Face Recognition with LBP and NN
-This repository contains the source code of the experiments done in the paper entitled ***"Face Recognition Using Local Binary Pattern and Nearest Neighbour Classification"***
+This repository contains the source code of the experiments done in the paper entitled ***"Face Recognition Using Local Binary Pattern and Nearest Neighbour Classification"*** . This work will be presented at [the 2018 International Symposium on Advanced Intelligent Informatics (SAIN 2018)](http://sain.ijain.org/) on August 29-30, 2018 in Yogyakarta, Indonesia.
 
 ## Structure of the source code
 - **db folder** Contains three datasets used in this experiment, i.e. JAFFE, AT&T, and Yale
