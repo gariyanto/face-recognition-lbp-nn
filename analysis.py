@@ -2,7 +2,7 @@
 from matplotlib import pyplot as plt
 import pandas as pd
 
-data = pd.read_csv('att_knn2.csv')
+# data = pd.read_csv('att_knn2.csv')
 # p = data.nlargest(10, 'akurasi')
 # print('YALE')
 # print(p)
@@ -21,9 +21,9 @@ data = pd.read_csv('att_knn2.csv')
 # plt.ylabel("% Accuracy (sorted)")
 # plt.show()
 
-data1 = pd.read_csv('att_knn2.csv')
-data2 = pd.read_csv('jaffe_knn2.csv')
-data3 = pd.read_csv('yale_knn2.csv')
+data1 = pd.read_csv('results/att_knn.csv')
+data2 = pd.read_csv('results/jaffe_knn.csv')
+data3 = pd.read_csv('results/yale_knn.csv')
 a1 = data1[(data1.radius==16.0) & (data1.k==1.0)]['akurasi'].values
 p1 = data1[(data1.radius==16.0) & (data1.k==1.0)]['points'].values
 a2 = data2[(data2.radius==16.0) & (data2.k==1.0)]['akurasi'].values

@@ -70,4 +70,4 @@ for p in par:
         akurasi = float(benar*100/jml)
         print(benar, jml, k, ": Akurasi", akurasi, "%")
         hasil.append([k, p[0], p[1], akurasi])
-tulis_hasil(hasil, "{0}_rnn2.csv".format(db))
+tulis_hasil(hasil, "results/{0}_rnn.csv".format(db))

@@ -14,7 +14,7 @@ def tulis_hasil(hasil, fname):
     pd.DataFrame({"k": hasil[:, 0], "points": hasil[:, 1], "radius": hasil[:, 2],
                   "akurasi": hasil[:, 3]}).to_csv(fname, index=False, header=True)
 
-db = 'yale'
+db = 'att'
 data_training = 'db/%s' % db
 
 points = range(8, 70, 4)
@@ -72,4 +72,4 @@ for p in par:
         akurasi = float(benar*100/jml)
         print(benar, jml, k, ": Akurasi", akurasi, "%")
         hasil.append([k, p[0], p[1], akurasi])
-tulis_hasil(hasil, "{0}_knn.csv".format(db))
+tulis_hasil(hasil, "results/{0}_knn.csv".format(db))
