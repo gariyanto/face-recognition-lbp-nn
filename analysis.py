@@ -2,7 +2,7 @@
 from matplotlib import pyplot as plt
 import pandas as pd
 
-# data = pd.read_csv('att_knn2.csv')
+# data = pd.read_csv('att_knn.csv')
 # p = data.nlargest(10, 'akurasi')
 # print('YALE')
 # print(p)

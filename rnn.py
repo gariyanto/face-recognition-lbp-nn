@@ -14,7 +14,7 @@ def tulis_hasil(hasil, fname):
     pd.DataFrame({"k": hasil[:, 0], "points": hasil[:, 1], "radius": hasil[:, 2],
                   "akurasi": hasil[:, 3]}).to_csv(fname, index=False, header=True)
 
-db = 'att'
+db = 'yale'
 data_training = 'db/%s' % db
 
 points = range(8, 70, 4)
